@@ -1,10 +1,10 @@
-# 📦 Controle de Estoque com MySQL
+# Controle de Estoque com MySQL
 
 Projeto prático de administração de banco de dados, simulando um sistema de controle de estoque para pequenos comércios. Desenvolvido com foco em **modelagem de dados**, **boas práticas SQL** e **rotinas comuns da atuação como DBA**.
 
 ---
 
-## 🛠 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - MySQL 8.x
 - MySQL Workbench
@@ -14,21 +14,21 @@ Projeto prático de administração de banco de dados, simulando um sistema de c
 
 ---
 
-## 🚀 O que foi implementado
+## O que foi implementado
 
-✅ Criação de banco e tabelas normalizadas  
-✅ Inserção de dados simulados  
-✅ Consultas SQL com `JOIN`, `GROUP BY` e filtros  
-✅ Procedure para movimentação de estoque  
-✅ Trigger exemplo de log (simples)  
-✅ Criação de usuário com permissões restritas  
-✅ Backup e restore do banco (via Workbench)
+- Criação de banco e tabelas normalizadas  
+- Inserção de dados simulados  
+- Consultas SQL com `JOIN`, `GROUP BY` e filtros  
+- Procedure para movimentação de estoque  
+- Trigger exemplo de log (simples)  
+- Criação de usuário com permissões restritas  
+- Backup e restore do banco (via Workbench)
 
 ---
 
-## 💡 Como testar localmente
+## Como testar localmente
 
-### 📌 Usando MySQL Workbench:
+### Usando MySQL Workbench:
 1. Abra o Workbench
 2. Execute os scripts em ordem:
    - `create-tables.sql`
@@ -36,3 +36,8 @@ Projeto prático de administração de banco de dados, simulando um sistema de c
    - `consultas.sql`
    - `procedures_triggers.sql`
 3. Teste as procedures no painel de consultas
+
+### Usando o CMD:
+```bash
+mysql -u root -p < scripts/create-tables.sql
+mysql -u root -p < scripts/insert-dados.sql
