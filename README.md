@@ -14,6 +14,12 @@ Projeto prático de administração de banco de dados, simulando um sistema de c
 
 ---
 
+## 📐 Diagrama DER
+
+![DER do Projeto](./der_controle_estoque.jpg)
+
+---
+
 ## O que foi implementado
 
 - Criação de banco e tabelas normalizadas  
